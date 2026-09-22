@@ -37,6 +37,12 @@
 - Verwijzing in `docs/movieinstructions.md` aangepast aan de nieuwe documentlocatie.
 - `requirements.md` opgehoogd van versie 1.46 naar 1.47.
 
+## 2026-09-22 14:18 +0200 — Publieke GitHub-publicatie afgerond
+- Publieke repository aangemaakt onder `rutgerrienks/IND-Demo`.
+- Eerste commit succesvol naar `master` gepusht.
+- URL: https://github.com/rutgerrienks/IND-Demo
+- Laatste versie van `requirements.md` opgehoogd naar 1.48.
+
 ## 2026-08-12 13:39 — Repo verkend
 - Repo bevat alleen documentatie (`basisarchitecture.md`, `requirements.md`, `CLAUDE.md`, leeg `JOURNAL.md`, `.env`). Geen applicatiecode, geen git-repo.
 - Conflict gesignaleerd tussen `basisarchitecture.md` (AI-proxy app) en `requirements.md` (urenregistratietool). Aan gebruiker voorgelegd.

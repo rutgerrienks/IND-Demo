@@ -1,6 +1,6 @@
 Wat willen we met de demo?
 
-<!-- Documentversie: 1.47 — 2026-09-22: publieke repository opgeschoond en gestructureerd -->
+<!-- Documentversie: 1.48 — 2026-09-22: publieke GitHub-repository gepubliceerd -->
 
 De demo wordt een demo die notas en beleidsstukken checkt op consistentie, tegenstrijdigheden en volledigheid.
 
