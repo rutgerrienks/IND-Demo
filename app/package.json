@@ -1,0 +1,30 @@
+{
+  "name": "ind-demo-placeholder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IND-Demo document review shell for Docker + ACR + App Service.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "test": "node --test",
+    "test:demo": "node --test --test-concurrency=1 quality/demo-suite.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "docx": "^9.5.1",
+    "express": "^4.21.2",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.9.1",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "vite": "^8.1.1"
+  }
+}

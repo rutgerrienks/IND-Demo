@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    image: ind-demo-placeholder:local
+    ports:
+      - "8081:80"
+    env_file:
+      - .env
+    environment:
+      GOTENBERG_URL: http://gotenberg:3000
+    restart: unless-stopped
+
+  gotenberg:
+    image: gotenberg/gotenberg:8
+    restart: unless-stopped

@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Env & secrets
+.env
+!.env.example
+*.tfvars
+!*.tfvars.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# Local dependencies and generated output
+**/node_modules/
+**/dist/
+**/.venv/
+.DS_Store
+
+# Demo media and Python cache
+video/
+**/__pycache__/

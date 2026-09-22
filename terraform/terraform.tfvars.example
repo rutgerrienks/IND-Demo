@@ -1,0 +1,15 @@
+# Copy to terraform.tfvars and adjust. terraform.tfvars is gitignored.
+
+# subscription_id     = "00000000-0000-0000-0000-000000000000"
+location            = "westeurope"
+resource_group_name = "rg-ind-demo"
+name_prefix         = "inddemo"
+acr_sku             = "Basic"
+app_service_sku     = "B1"
+image_name          = "ind-demo-placeholder"
+image_tag           = "latest"
+
+# Extra environment variables for the web app (no secrets in version control):
+# app_settings = {
+#   EXAMPLE_KEY = "value"
+# }
